@@ -1,0 +1,390 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+body {
+    background-color: #F5FCFF;
+}
+.header-area {
+    height: 85px;
+    margin-top: 23px;
+}
+
+.container {width: 90%;margin: 0 auto;}
+
+.header-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-wrapper .logo img {
+    width: 46px;
+}
+.menu ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu ul li a {
+    color: black;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 10px 20px;
+    display: block;
+    margin-left: 17px;
+}
+.menu ul li a:hover {
+    background-color: #616161;
+    border-radius: 20px;
+}
+.menu ul button {
+    font-size: 17px;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    background-color: #616161;
+    transition: .4s;
+    margin-left: 19px;
+}
+.menu ul button:hover {
+    background-color: black;
+    color: white;
+}
+.about-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.about-wrapper {
+    width: 100%;
+}
+.about-area {
+    height: 500px;
+    padding: 24px;
+}
+
+.about-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.about-img img {
+    width: 311px;
+    margin-left: 261px;
+}
+.about-me h3 {
+    font-size: 20px;
+    font-weight: 600;
+    font-family: sans-serif;
+    color: #616161;
+    margin: -60px;
+}
+.about-me h1 {
+    font-size: 86px;
+    font-weight: 600;
+    color: #616161;
+}
+
+.about-me p {
+    font-weight: 400;
+    font-size: 18px;
+    color: #616161;
+}
+.about-me button {
+    padding: 16px 52px;
+    margin-top: 21px;
+    background-color: #616161;
+    color: black;
+    border-radius: 11px;
+    font-size: 16px;
+}
+.about-me button:hover {
+    background-color: black;
+    color: white;
+
+}
+
+.logo-area {
+    margin-right: 43px;
+    margin-top: 105px;
+    padding: 5px 30px;
+    width: 90%;
+}
+
+.logo-area .logo-wrapper {
+    display: flex;
+}
+img {
+    margin-right: 167px;
+}
+
+.skilled-area {
+    width: 100%;
+    margin-top: 160px;
+}
+
+.skilled-wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 27px;
+    padding: -35px;
+}
+
+.skilled-one {
+    width: 30%;
+    font-size: 18px;
+    margin-left: -63px;
+    text-align: center;
+}
+
+.skilled-two {
+    width: 30%;
+    font-size: 18px;
+    margin-left: -63px;
+    text-align: center;
+}
+
+.skilled-three {
+    width: 30%;
+    font-size: 18px;
+    margin-left: -63px;
+    text-align: center;
+}
+.skilled-one img {
+    margin-right: 3px;
+}
+.skilled-two img {
+    margin-right: 3px;
+
+}
+.skilled-three img {
+    margin-right: 3px;
+
+}
+.skilled-one h3 {
+    padding: 23px;
+    font-size: 27px;
+    font-weight: 600;
+    color: #616161;
+}
+.skilled-two h3 {
+    padding: 23px;
+    font-size: 27px;
+    font-weight: 600;
+    color: #616161;
+}
+.skilled-three h3 {
+    padding: 23px;
+    font-size: 27px;
+    font-weight: 600;
+    color: #616161;
+}
+.skilled-one p {
+    color: #6F6F6F;
+    padding: 13px;
+}
+.skilled-two p {
+    color: #6F6F6F;
+    padding: 13px;
+}
+.skilled-three p {
+    color: #6F6F6F;
+    padding: 13px;
+}
+.self-area {
+    margin-top: 93px;
+}
+
+.self-wrapper {
+    display: flex;
+    align-items: center;
+}
+.self-img img {
+    width: 530px;
+    border-radius: 258px;
+}
+.self h1 {
+    font-size: 61px;
+    font-weight: 700;
+    color: #616161;
+    margin-right: 248px;
+}
+
+.self p {
+    margin-top: 19px;
+    font-size: 20px;
+    font-weight: 500;
+    color: #616161;
+}
+
+.self button {
+    padding: 16px 52px;
+    margin-top: 21px;
+    background-color: #616161;
+    color: black;
+    border-radius: 11px;
+    font-size: 16px;
+    transition: .4s;
+}
+.self button:hover {
+    background-color: black;
+    color: white;
+}
+.work-area {
+    width: 100%;
+    margin-left: 42px;
+}
+
+.work-wrapper {
+    display: flex;
+    margin-top: 36px;
+}
+
+.work-wrapper .work-body {
+    width: 33.33%;
+}
+h1 {
+    text-align: center;
+    margin-top: 72px;
+}
+.work-body img {
+    width: 348px;
+}
+.work-body p {
+    color: #616161;
+    padding: 5px 6px;
+
+}
+.test h1 {
+    font-size: 36px;
+}
+.test-area {
+    width: 90%;
+    margin-top: 55px;
+}
+
+.test-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+.test-area {
+    width: 90%;
+    margin-top: 55px;
+}
+
+.test-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.test-wrapper .test-body {
+    width: 55.33%;
+    margin-left: 41px;
+    border: 0px solid;
+    background-color: #F3F3F3;
+    border-radius: 20px;
+    height: 223px;
+}
+.test-body p {
+    margin-top: 33px;
+    margin-left: 31px;
+}
+.test-info {
+    display: flex;
+}
+
+.test-img img {
+    margin-left: 51px;
+    margin-top: 49px;
+}
+
+
+.test-name {
+    margin-left: -157px;
+    margin-top: 60px;
+}
+
+.test-name img {
+    width: 74px;
+    color: black;
+    margin-left: 12px;
+}
+.test-name p {
+    margin: 4px;
+    margin-left: 13px;
+}
+.footer-area {
+    width: 100%;
+    margin-top: 103px;
+}
+
+.footer-wrapper {
+    display: flex;
+}
+.footer-table {
+    width: 418px;
+    padding: 28px;
+    margin-left: 153px;
+}
+
+
+input[type="text"] {
+    width: 494px;
+    height: 41px;
+    padding: 20px;
+    border: none;
+    background-color: #F3F3F3;
+}
+input[type="email"] {
+    margin-top: 20px;
+    width: 494px;
+    height: 41px;
+    padding: 20px;
+    border: none;
+    background-color: #F3F3F3;
+}
+.footer-table button {
+    margin-top: 20px;
+    padding: 11px;
+    width: 118px;
+    border: none;
+    border-radius: 9px;
+    color: black;
+    background-color: #616161;
+    transition: .3s;
+}
+.footer-table button:hover {
+    background-color: black;
+    color:white;
+}
+.footer-info h2 {
+    color: #969696;
+    margin: 31px;
+}
+.footer-info p {
+    margin: 26px;
+    color: black;
+    width: 464px;
+    font-size: 17px;
+}
+.footer-icon {
+    margin: 25px;
+    font-size: 22px;
+    color: blueviolet;
+}
+.foot-area {
+    width: 100%;
+    text-align: center;
+    background-color: #969696;
+    margin-top: 35px;
+}
+
+.foot-area p {
+    font-size: 21px;
+}
+
